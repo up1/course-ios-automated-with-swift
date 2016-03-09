@@ -1,3 +1,11 @@
+let x: Int = 1
+print("Hello \(x)")
+
+let data: [Int]
+data = [10, 19]
+
+for i..
+
 let individualScores = [20, 50, 80, 100, 78]
 var teamScore = 0
 for score in individualScores {
@@ -8,6 +16,9 @@ for score in individualScores {
     }
 }
 print(teamScore)
+
+
+
 
 
 

@@ -113,6 +113,37 @@ increment(5, 2)
 
 
 
+var z1 = 1
+var z2 = 2
+(z1,z2) = (z2, z1)
+
+print(z1)
+print(z2)
+
+
+
+
+func addOne(number: Int) -> Int {
+    return number + 1
+}
+
+func addTwo(number: Int) -> Int {
+    return number + 2
+}
+
+func compute(number: Int,
+             condition: Int->Int ) -> Int {
+        return condition(number)
+}
+
+print(compute(4, condition: addTwo ))
+
+
+
+
+
+
+
 
 
 

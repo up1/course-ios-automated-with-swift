@@ -1,3 +1,14 @@
+enum OSType: Int {
+    case Windows = 1
+    case Linux
+    case OSX
+}
+
+var type1: OSType = OSType(rawValue: 3)!
+print(type1.rawValue)
+
+
+
 enum Direction: Int {
     case Up = 1
     case Down
@@ -31,7 +42,6 @@ func calculate(number: Int) throws -> Int {
         throw AwesomeError.Worse
     }
     return 100
-    
 }
 
 
