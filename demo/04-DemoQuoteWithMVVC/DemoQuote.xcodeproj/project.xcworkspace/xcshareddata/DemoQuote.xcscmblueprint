@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8BCFFBC3AF521E15BC6C97017C9916FD7185C8F2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8BCFFBC3AF521E15BC6C97017C9916FD7185C8F2" : 0,
+    "B9B308D4B7DECEF4398C15B2FA9FDFF35778E048" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "19584564-2102-47C8-9E93-B20F634D16B0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8BCFFBC3AF521E15BC6C97017C9916FD7185C8F2" : "04-DemoQuoteWithMVVC\/",
+    "B9B308D4B7DECEF4398C15B2FA9FDFF35778E048" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DemoQuote",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DemoQuote.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:up1\/demo_mvvm_quote_app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8BCFFBC3AF521E15BC6C97017C9916FD7185C8F2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:up1\/course-ios-automated-with-swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B9B308D4B7DECEF4398C15B2FA9FDFF35778E048"
+    }
+  ]
+}

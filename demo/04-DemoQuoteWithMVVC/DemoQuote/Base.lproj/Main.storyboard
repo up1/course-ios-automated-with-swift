@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9052" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="hSn-UG-kTY">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9040"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="uld-La-t73">
+            <objects>
+                <navigationController id="hSn-UG-kTY" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="d9e-HX-a3F">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="XTG-sS-V3t"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o79-Ef-Jk3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1148" y="44"/>
+        </scene>
+        <!--My Quote-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="QuoteListViewController" customModule="DemoQuote" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="H3v-UQ-cAl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="My Quote" id="Amb-Pg-qJJ">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="pSE-7e-ys7">
+                            <connections>
+                                <segue destination="iHn-ab-Ret" kind="popoverPresentation" animates="NO" popoverAnchorBarButtonItem="pSE-7e-ys7" id="rpo-Hq-Ytm">
+                                    <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                </segue>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="H3v-UQ-cAl" id="HKb-un-dIm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-449" y="52"/>
+        </scene>
+        <!--New Quote View Controller-->
+        <scene sceneID="7NQ-QH-bBB">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wr2-Xk-B9C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="iHn-ab-Ret" customClass="NewQuoteViewController" customModule="DemoQuote" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gvu-ge-2bZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="6dj-qA-JB1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7XY-s2-qLN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h9Y-aV-oq9">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="2C1-y8-MlB"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="New Quote" id="lzK-i2-lwt">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="6UW-oa-WJC">
+                                            <connections>
+                                                <action selector="cancelButton:" destination="iHn-ab-Ret" id="LXd-AI-97v"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="GCE-87-T6R">
+                                            <connections>
+                                                <action selector="saveTapped:" destination="iHn-ab-Ret" id="IPk-5z-rk8"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your love quote" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X0J-Ak-JKp">
+                                <rect key="frame" x="31" y="111" width="540" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="l5b-5h-g9V"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="X0J-Ak-JKp" firstAttribute="top" secondItem="h9Y-aV-oq9" secondAttribute="bottom" constant="39" id="E2M-Mh-0ub"/>
+                            <constraint firstItem="h9Y-aV-oq9" firstAttribute="leading" secondItem="7XY-s2-qLN" secondAttribute="leadingMargin" constant="-20" id="KZD-JX-7he"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="X0J-Ak-JKp" secondAttribute="trailing" constant="20" id="jSp-JT-FYY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="h9Y-aV-oq9" secondAttribute="trailing" constant="-20" id="m2e-Hz-jEX"/>
+                            <constraint firstItem="h9Y-aV-oq9" firstAttribute="top" secondItem="gvu-ge-2bZ" secondAttribute="bottom" constant="8" id="muF-vr-Qwy"/>
+                            <constraint firstItem="X0J-Ak-JKp" firstAttribute="leading" secondItem="7XY-s2-qLN" secondAttribute="leadingMargin" constant="20" id="sLz-ow-O7l"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="contentTextField" destination="X0J-Ak-JKp" id="bwY-dP-GvE"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="288" y="52"/>
+        </scene>
+        <!--EditQuoteViewController-->
+        <scene sceneID="Daz-Qt-wfy">
+            <objects>
+                <viewController id="l7B-3o-v0k" userLabel="EditQuoteViewController" customClass="EditQuoteViewController" customModule="DemoQuote" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="55V-Fn-JrI"/>
+                        <viewControllerLayoutGuide type="bottom" id="eIK-KC-9ct"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oFv-C9-8ZE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dOg-Ti-itk">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="0Ap-tG-aS3"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Edit quote" id="ngl-5r-dUu">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="TMm-fz-vsD">
+                                            <connections>
+                                                <action selector="cancelButton:" destination="l7B-3o-v0k" id="Oen-pu-T2y"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="Kaf-ka-Kcu">
+                                            <connections>
+                                                <action selector="saveTapped:" destination="l7B-3o-v0k" id="pO6-P0-Xg7"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your love quote" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u82-is-dOK">
+                                <rect key="frame" x="31" y="111" width="540" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="gzW-ty-zNl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="u82-is-dOK" firstAttribute="top" secondItem="dOg-Ti-itk" secondAttribute="bottom" constant="39" id="0JR-UX-Sxr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="u82-is-dOK" secondAttribute="trailing" constant="20" id="HY1-HP-kyi"/>
+                            <constraint firstItem="dOg-Ti-itk" firstAttribute="leading" secondItem="oFv-C9-8ZE" secondAttribute="leadingMargin" constant="-20" id="Ieg-pC-MKU"/>
+                            <constraint firstItem="dOg-Ti-itk" firstAttribute="top" secondItem="55V-Fn-JrI" secondAttribute="bottom" constant="8" id="QzO-6Q-Nvw"/>
+                            <constraint firstItem="u82-is-dOK" firstAttribute="leading" secondItem="oFv-C9-8ZE" secondAttribute="leadingMargin" constant="20" id="iYt-Ml-WAI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dOg-Ti-itk" secondAttribute="trailing" constant="-20" id="rPi-j6-O3X"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="contentTextField" destination="u82-is-dOK" id="hZw-mK-UR8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eJV-ft-tYv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="288" y="730"/>
+        </scene>
+    </scenes>
+</document>
