@@ -10,15 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var resultLabel: UILabel!
+    @IBOutlet weak var secondTextField: UITextField!
+    @IBOutlet weak var firstTextField: UITextField!
+    @IBAction func tapCalculateButton(sender: UIButton) {
+        //TODO by yourself
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+        super.didReceiveMemoryWarning()    }
 
 
 }

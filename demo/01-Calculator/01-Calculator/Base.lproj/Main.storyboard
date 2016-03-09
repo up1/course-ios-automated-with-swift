@@ -77,6 +77,9 @@
                                 <state key="normal" title="คิดสิคิด !!">
                                     <color key="titleColor" red="0.91889506578445435" green="0.036104921251535416" blue="0.91308635473251343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="tapCalculateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fOc-Kc-zCn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -95,6 +98,11 @@
                             <constraint firstItem="iYl-0D-AL4" firstAttribute="centerX" secondItem="4if-Jx-AEB" secondAttribute="centerX" id="v9I-1F-0jg"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="firstTextField" destination="yxU-FO-f3a" id="2UB-d0-Mei"/>
+                        <outlet property="resultLabel" destination="iSI-fb-jpJ" id="wDJ-Jt-Bdz"/>
+                        <outlet property="secondTextField" destination="qwL-QL-xa5" id="kq0-8F-1dS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
