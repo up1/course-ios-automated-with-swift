@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6FEDD396EF0AEFC0AB879AAD69D5C472FE35F3C7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6FEDD396EF0AEFC0AB879AAD69D5C472FE35F3C7" : 0,
+    "B9B308D4B7DECEF4398C15B2FA9FDFF35778E048" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F13CE02B-571F-45C0-A4E6-5EF675C2BF5F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6FEDD396EF0AEFC0AB879AAD69D5C472FE35F3C7" : "Workshop-UI-Testing\/",
+    "B9B308D4B7DECEF4398C15B2FA9FDFF35778E048" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Workshop-UI-Testing",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Workshop-UI-Testing.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:up1\/UI-Testing-Cheat-Sheet.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6FEDD396EF0AEFC0AB879AAD69D5C472FE35F3C7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:up1\/course-ios-automated-with-swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B9B308D4B7DECEF4398C15B2FA9FDFF35778E048"
+    }
+  ]
+}
