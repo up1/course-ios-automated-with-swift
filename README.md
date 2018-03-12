@@ -32,3 +32,10 @@ Slide and Demo
 ## More
 * Testing with Appium
 
+## Tools 
+
+### Mock servers
+* [Stubby4J](https://github.com/azagniotov/stubby4j)
+* [Wiremock](http://wiremock.org/)
+* [JSON Server](https://github.com/typicode/json-server)
+
