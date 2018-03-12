@@ -9,6 +9,7 @@ Slide and Demo
 * Write your first test with XCTest
   * Unit testing
   * UI testing
+  * Code coverage
 * Workshop
 
 ## Day 2
@@ -19,6 +20,8 @@ Slide and Demo
   * Spy
   * Mock
   * Fake
+* Integration testing
+* API testing
 * Tools => [Fastlane](https://fastlane.tools/)
 * Continuous Integration
   * Concept
