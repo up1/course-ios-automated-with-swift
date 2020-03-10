@@ -6,7 +6,8 @@
 * Mobile testing
 * Introduction to Swift
 * Test First and TDD concept
-* Write your first test with XCTest
+  * Red -> Green -> Refactor
+* Write your first test with [XCTest](https://developer.apple.com/documentation/xctest)
   * Unit testing
   * UI testing
   * Code coverage
@@ -30,7 +31,8 @@
   * Tools => [Jenkins](https://jenkins.io/)
   
 ## Workshops
-* [Workshop with API](https://github.com/up1/workshop-starter-tdd-swift)
+* [iOS testing with Swift](https://github.com/up1/workshop-ios-testing)
+* [Working with API](https://github.com/up1/workshop-starter-tdd-swift)
 
 ## Tools 
 * [SwiftLint](https://github.com/realm/SwiftLint)
