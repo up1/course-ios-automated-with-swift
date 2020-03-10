@@ -32,7 +32,7 @@
   
 ## Workshops
 * [TDD with Swift](https://github.com/up1/demo-tdd-swift)
-* [iOS testing with Swift](https://github.com/up1/workshop-ios-testing)
+* [iOS testing with Swift => Test double and UI Test](https://github.com/up1/workshop-ios-testing)
 * [Working with API](https://github.com/up1/workshop-starter-tdd-swift)
 
 ## Tools 
