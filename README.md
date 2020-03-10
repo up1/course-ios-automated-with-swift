@@ -38,6 +38,7 @@
 * [SwiftLint](https://github.com/realm/SwiftLint)
 * [SwiftFormat](https://github.com/nicklockwood/SwiftFormat)
 * Testing with [Appium](http://appium.io/)
+* [SwiftLocalhost](https://github.com/depoon/SwiftLocalhost)
 
 ### Mock servers
 * [Stubby4J](https://github.com/azagniotov/stubby4j)
