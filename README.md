@@ -23,7 +23,7 @@
   * Mock
   * Fake
 * Integration testing
-* API testing
+* Working with external API => RESTFul APIs
 * Tools => [Fastlane](https://fastlane.tools/)
 * Continuous Integration
   * Concept
