@@ -2,6 +2,7 @@
 Slide and Demo
 
 ## Day 1
+* Introduction to Acceptance Testing (ATDD)
 * Introduction to Pyramid Testing
 * Mobile testing
 * Introduction to Swift
@@ -11,6 +12,7 @@ Slide and Demo
   * UI testing
   * Code coverage
 * Workshop
+* How to write good test cases ?
 
 ## Day 2
 * Real workshop with Mobile app
