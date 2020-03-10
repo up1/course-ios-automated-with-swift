@@ -1,5 +1,4 @@
-# course-ios-automated-with-swift
-Slide and Demo
+# Course iOS automated testing with Swift
 
 ## Day 1
 * Introduction to Acceptance Testing (ATDD)
@@ -30,14 +29,13 @@ Slide and Demo
   * Build pipeline
   * Tools => [Jenkins](https://jenkins.io/)
   
-  
 ## Workshops
 * [Workshop with API](https://github.com/up1/workshop-starter-tdd-swift)
-  
-## More
-* Testing with Appium
 
 ## Tools 
+* [SwiftLint](https://github.com/realm/SwiftLint)
+* [SwiftFormat](https://github.com/nicklockwood/SwiftFormat)
+* Testing with [Appium](http://appium.io/)
 
 ### Mock servers
 * [Stubby4J](https://github.com/azagniotov/stubby4j)
